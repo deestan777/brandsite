@@ -1,32 +1,41 @@
 <template>
   <div id="app">
+    <vHeader />
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">{{ $t("home") }}</router-link>
+
+      <router-link to="/about">{{ $t("about") }}</router-link>
+
+      <router-link to="/education">{{ $t("education") }}</router-link>
+
+      <router-link to="/room">{{ $t("room") }}</router-link>
+
+      <router-link to="/sign-in">{{ $t("signIn") }}</router-link>
+
+      <div class="flag">
+        <a @click="setLocale('ru')" href="#">
+          <flag class="locale" iso="ru"></flag>
+        </a>
+        <a @click="setLocale('en')" href="#">
+          <flag class="locale" iso="gb"></flag>
+        </a>
+      </div>
     </div>
     <router-view />
   </div>
 </template>
-
-<style lang="less">
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
+<script>
+import "./less/app.less";
+import vHeader from "./components/header.vue";
+export default {
+  name: "app",
+  components: {
+    vHeader
+  },
+  methods: {
+    setLocale(locale) {
+      this.$i18n.locale = locale;
     }
   }
-}
-</style>
+};
+</script>
