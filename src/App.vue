@@ -20,6 +20,7 @@
         <router-link to="/education">{{ $t("education") }}</router-link>
         <router-link to="/room">{{ $t("room") }}</router-link>
       </div>
+
       <div class="sign-in">
         <router-link to="/sign-up"><button>{{ $t("signUp") }}</button></router-link>
         <router-link to="/sign-in"><button>{{ $t("signIn") }}</button></router-link>
