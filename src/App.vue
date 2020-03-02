@@ -14,16 +14,11 @@
         </div>
         </a>
       </div>
-
       <div class="nav__links">
         <router-link to="/">{{ $t("home") }}</router-link>
-
         <router-link to="/about">{{ $t("about") }}</router-link>
-
         <router-link to="/education">{{ $t("education") }}</router-link>
-
         <router-link to="/room">{{ $t("room") }}</router-link>
-
       </div>
       <div class="sign-in">
         <router-link to="/sign-up"><button>{{ $t("signUp") }}</button></router-link>
