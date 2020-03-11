@@ -1239,6 +1239,7 @@ img.tp-slider-alternative-image {
 
 .rev-scroll-btn.revs-fulldark span,
 .tp-bullet {
+    visibility: hidden;
     background: #fff
 }
 
@@ -1612,6 +1613,7 @@ img.tp-slider-alternative-image {
 }
 
 .tp-bullet {
+    visibility: hidden;
     width: 15px;
     height: 15px;
     position: absolute;
@@ -1655,10 +1657,12 @@ img.tp-slider-alternative-image {
 }
 
 .tparrows.tp-leftarrow:before {
+    visibility: hidden;
     content: '\e824'
 }
 
 .tparrows.tp-rightarrow:before {
+    visibility: hidden;
     content: '\e825'
 }
 
