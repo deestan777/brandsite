@@ -983,11 +983,11 @@ blockquote {
 }
 
 .financity-top-bar {
-    color: #3740b0;
+    color: #100d73;
 }
 
 .financity-body .financity-top-bar a {
-    color: #3740b0;
+    color: #100d73;
 }
 
 .financity-body .financity-top-bar a:hover {
@@ -995,7 +995,7 @@ blockquote {
 }
 
 .financity-top-bar .financity-top-bar-right-social a {
-    color: #3740b0;
+    color: #100d73;
 }
 
 .financity-top-bar .financity-top-bar-right-social a:hover {
@@ -1016,7 +1016,8 @@ blockquote {
 .financity-header-background,
 .financity-sticky-menu-placeholder,
 .financity-header-style-boxed.financity-fixed-navigation {
-    background-color: #112349;
+    background-color: #100d73;
+    width:100%;
 }
 
 .financity-header-wrap.financity-header-style-plain {
@@ -1046,11 +1047,11 @@ blockquote {
 }
 
 .financity-navigation .financity-navigation-slide-bar {
-    border-color: #3740b0;
+    border-color: #100d73;
 }
 
 .financity-navigation .financity-navigation-slide-bar:before {
-    border-bottom-color: #3740b0;
+    border-bottom-color: #100d73;
 }
 
 .financity-header-side-nav.financity-style-side-toggle .financity-logo {
@@ -1169,7 +1170,7 @@ ul.sf-menu>.menu-item-language li {
 .sf-vertical>li>.sub-menu a:hover,
 .sf-vertical>li>.sub-menu .current-menu-item>a,
 .sf-vertical>li>.sub-menu .current-menu-ancestor>a {
-    color: #3740b0;
+    color: #100d73;
 }
 
 .sf-menu>li>.sub-menu a:hover,
@@ -1751,12 +1752,12 @@ ul.gdlr-core-twitter-widget-wrap li .gdlr-core-twitter-widget-date a:hover {
 
 .financity-blog-aside-format .financity-single-article-content,
 .gdlr-core-blog-aside-format .gdlr-core-blog-content {
-    background-color: #3740b0;
+    background-color: #100d73;
 }
 
 .financity-blog-quote-format .financity-single-article-content,
 .gdlr-core-blog-quote-format .gdlr-core-blog-content {
-    background-color: #3740b0;
+    background-color: #100d73;
 }
 
 .financity-blog-aside-format .financity-single-article-content,
@@ -1784,7 +1785,7 @@ ul.gdlr-core-twitter-widget-wrap li .gdlr-core-twitter-widget-date a:hover {
 .gdlr-core-pagination a:hover,
 .gdlr-core-pagination a.gdlr-core-active,
 .gdlr-core-pagination span {
-    background-color: #3740b0;
+    background-color: #100d73;
 }
 
 .gdlr-core-pagination a:hover,
@@ -1847,7 +1848,7 @@ ul.gdlr-core-twitter-widget-wrap li .gdlr-core-twitter-widget-date a:hover {
 }
 
 .gdlr-core-portfolio-badge {
-    background-color: #3740b0;
+    background-color: #100d73;
 }
 
 .gdlr-core-portfolio-thumbnail .gdlr-core-portfolio-icon,
@@ -1886,7 +1887,7 @@ ul.gdlr-core-twitter-widget-wrap li .gdlr-core-twitter-widget-date a:hover {
 
 .gdlr-core-filterer-wrap.gdlr-core-style-button a:hover,
 .gdlr-core-filterer-wrap.gdlr-core-style-button a.gdlr-core-active {
-    background-color: #3740b0;
+    background-color: #100d73;
 }
 
 .gdlr-core-price-table-item .gdlr-core-price-table {
@@ -2089,7 +2090,7 @@ ul.gdlr-core-twitter-widget-wrap li .gdlr-core-twitter-widget-date a:hover {
 }
 
 .gdlr-core-audio .mejs-controls .mejs-time-rail .mejs-time-current {
-    background-color: #3740b0;
+    background-color: #100d73;
 }
 
 .gdlr-core-audio .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
@@ -2140,11 +2141,11 @@ q {
 }
 
 .gdlr-core-blockquote-item .gdlr-core-blockquote-item-author {
-    color: #3740b0;
+    color: #100d73;
 }
 
 .gdlr-core-blockquote-item .gdlr-core-blockquote-item-author-position {
-    color: #3740b0;
+    color: #100d73;
 }
 
 .gdlr-core-body .gdlr-core-load-more,
@@ -2165,7 +2166,7 @@ q {
 .financity-body .financity-button,
 .financity-body input[type="button"],
 .financity-body input[type="submit"] {
-    background-color: #3740b0;
+    background-color: #100d73;
 }
 
 .gdlr-core-body .gdlr-core-load-more:hover,
@@ -2190,11 +2191,11 @@ q {
 }
 
 .gdlr-core-body .gdlr-core-button.gdlr-core-button-gradient {
-    background-color: #3740b0;
-    background: -webkit-linear-gradient(#4c54c4, #3740b0);
-    background: -o-linear-gradient(#4c54c4, #3740b0);
-    background: -moz-linear-gradient(#4c54c4, #3740b0);
-    background: linear-gradient(#4c54c4, #3740b0);
+    background-color: #100d73;
+    background: -webkit-linear-gradient(#4c54c4, #100d73);
+    background: -o-linear-gradient(#4c54c4, #100d73);
+    background: -moz-linear-gradient(#4c54c4, #100d73);
+    background: linear-gradient(#4c54c4, #100d73);
 }
 
 .gdlr-core-call-to-action-item-title {
@@ -2244,7 +2245,7 @@ q {
 .gdlr-core-flipbox-item .gdlr-core-flipbox-front,
 .gdlr-core-flipbox-item .gdlr-core-flipbox-back,
 .gdlr-core-feature-box-item .gdlr-core-feature-box {
-    background-color: #3740b0;
+    background-color: #100d73;
 }
 
 .gdlr-core-flipbox-item .gdlr-core-flipbox-front,
@@ -2406,7 +2407,7 @@ q {
 }
 
 .gdlr-core-skill-bar-item .gdlr-core-skill-bar-filled {
-    background-color: #3740b0;
+    background-color: #100d73;
 }
 
 .gdlr-core-flexslider-nav .flex-direction-nav li a,
@@ -2430,11 +2431,11 @@ q {
 }
 
 .gdlr-core-flexslider .flex-control-nav li a.flex-active {
-    border-color: #3740b0;
+    border-color: #100d73;
 }
 
 .gdlr-core-flexslider .flex-control-nav li a.flex-active {
-    background-color: #3740b0;
+    background-color: #100d73;
 }
 
 .gdlr-core-social-share-item a {
@@ -2473,7 +2474,7 @@ q {
 }
 
 .gdlr-core-tab-item-title-line {
-    border-color: #3740b0;
+    border-color: #100d73;
 }
 
 .gdlr-core-tab-item-title.gdlr-core-active {
@@ -2486,7 +2487,7 @@ q {
 }
 
 table tr th {
-    background-color: #3740b0;
+    background-color: #100d73;
 }
 
 table tr th,
@@ -2548,7 +2549,7 @@ table tr:nth-child(even) {
 .single-product.woocommerce #review_form #respond p.stars a,
 .single-product.woocommerce div.product .product_meta,
 .single-product.woocommerce div.product .product_meta a {
-    color: #3740b0;
+    color: #100d73;
 }
 
 .woocommerce #respond input#submit.alt,
@@ -2560,11 +2561,11 @@ table tr:nth-child(even) {
 .woocommerce button.button,
 html .woocommerce input.button,
 html .woocommerce span.onsale {
-    background-color: #3740b0;
+    background-color: #100d73;
 }
 
 span.woocommerce-Price-amount.amount {
-    color: #3740b0;
+    color: #100d73;
 }
 
 .woocommerce .price del,
@@ -2652,7 +2653,7 @@ del span.woocommerce-Price-amount.amount {
 
 .gdlr-core-product-thumbnail .added_to_cart,
 .gdlr-core-product-thumbnail .gdlr-core-product-add-to-cart {
-    background-color: #3740b0;
+    background-color: #100d73;
     background-color: rgba(55, 64, 176, 0.9);
 }
 
@@ -2665,7 +2666,7 @@ del span.woocommerce-Price-amount.amount {
 }
 
 .woocommerce .widget_price_filter .ui-slider .ui-slider-handle {
-    background-color: #3740b0;
+    background-color: #100d73;
 }
 
 body .gdlr-core-breadcrumbs-item {
@@ -3044,7 +3045,7 @@ body .financity-dropdown-wpml-flag .financity-dropdown-wpml-list {
 .gdlr-core-page-builder-body [data-skin="Column Service HP 1"] h6,
 .gdlr-core-page-builder-body [data-skin="Column Service HP 1"] .gdlr-core-skin-title,
 .gdlr-core-page-builder-body [data-skin="Column Service HP 1"] .gdlr-core-skin-title a {
-    color: #3740b0
+    color: #100d73
 }
 
 .gdlr-core-page-builder-body [data-skin="Column Service HP 1"] .gdlr-core-skin-title a:hover {
@@ -3065,7 +3066,7 @@ body .financity-dropdown-wpml-flag .financity-dropdown-wpml-list {
 .gdlr-core-page-builder-body [data-skin="Home CTA"] .gdlr-core-skin-caption,
 .gdlr-core-page-builder-body [data-skin="Home CTA"] .gdlr-core-skin-caption a,
 .gdlr-core-page-builder-body [data-skin="Home CTA"] .gdlr-core-skin-caption a:hover {
-    color: #f17d44
+    color: #100d73
 }
 
 .gdlr-core-page-builder-body [data-skin="Home CTA"] .gdlr-core-button,
@@ -3104,7 +3105,7 @@ body .financity-dropdown-wpml-flag .financity-dropdown-wpml-list {
 .gdlr-core-page-builder-body [data-skin="Home Cases"] h6,
 .gdlr-core-page-builder-body [data-skin="Home Cases"] .gdlr-core-skin-title,
 .gdlr-core-page-builder-body [data-skin="Home Cases"] .gdlr-core-skin-title a {
-    color: #3740b0
+    color: #100d73
 }
 
 .gdlr-core-page-builder-body [data-skin="Home Cases"],
@@ -3114,7 +3115,7 @@ body .financity-dropdown-wpml-flag .financity-dropdown-wpml-list {
 
 .gdlr-core-page-builder-body [data-skin="Home Cases"] a,
 .gdlr-core-page-builder-body [data-skin="Home Cases"] .gdlr-core-skin-link {
-    color: #f17d44
+    color: #100d73
 }
 
 .gdlr-core-page-builder-body [data-skin="Home Cases"] a:hover,
